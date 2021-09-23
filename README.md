@@ -8,7 +8,7 @@
 ## Sobre o Desafio
 Neste projeto temos uma infraestrutura em nuvem hospedada na AWS, contruída através do terraform. Na nuvem contém uma aplicação bem simples feita em django, na qual utiliza containers docker para ser executada.
 
-<img src="img/Fluxo-IaC.svg" alt="Minha Figura">
+![teste](https://raw.githubusercontent.com/samyev/desafio-pagar.me/main/Fluxo-IaC.svg?token=AI7ZAFORCP5QI5FNQPXRDQTBKYW2O)
 
 ## Iniciando sua Infraestrutura
 Configure o AWS CLI em sua máquina. Antes de qualquer coisa acesse o diretório **desafio-pagar.me/terraform**, em seguida, execute o comando a baixo e siga as instruções
