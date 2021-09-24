@@ -10,7 +10,7 @@ Neste projeto temos uma infraestrutura em nuvem hospedada na AWS, contruída atr
 
 ## Arquitetura do Projeto
 
-![Fluxograma do projeto](https://raw.githubusercontent.com/samyev/desafio-pagar.me/main/Fluxo-IaC.svg?token=AI7ZAFORCP5QI5FNQPXRDQTBKYW2O)
+![Fluxograma do projeto](https://raw.githubusercontent.com/samyev/desafio-pagar.me/main/Fluxo-IaC%20(1).svg?token=AI7ZAFPQ7F3QZMIU3NPFHETBK4B6U)
 
 ## Iniciando sua Infraestrutura
 Configure o AWS CLI em sua máquina. Antes de qualquer coisa acesse o diretório **desafio-pagar.me/terraform**, em seguida, execute o comando a baixo e siga as instruções
