@@ -14,8 +14,8 @@ sudo apt-get update
 # Install the latest version of Docker Engine
 sudo DEBIAN_FRONTEND=noninteractive apt-get install -y docker-ce docker-ce-cli containerd.io 
 
-# Pull a image from dockerhub
-sudo docker pull samev/desafio-iac:3.0.0
+# Build image for packer
+sudo docker image build -f /tmp/app/Dockerfile -t appdjango:1.0.0 /tmp/app/
 
 # Run the container
-sudo docker container run -d -p 80:8000 --restart=always samev/desafio-iac:3.0.0 
+sudo docker container run -d -p 80:8000 --restart=always appdjango:1.0.0 

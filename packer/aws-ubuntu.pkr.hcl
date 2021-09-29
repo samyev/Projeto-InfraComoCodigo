@@ -8,7 +8,7 @@ packer {
 }
 
 source "amazon-ebs" "ubuntu" {
-  ami_name      = "django-app-{{timestamp}}"
+  ami_name      = "webserver-{{timestamp}}"
   instance_type = "t2.micro"
   region        = "us-east-1"
 
@@ -29,6 +29,11 @@ build {
   sources = [
     "source.amazon-ebs.ubuntu"
   ]
+
+  provisioner "file" {
+    source = "../app"
+    destination = "/tmp/app"
+  }
 
   provisioner "shell" {
     script       = "scripts/script.sh"

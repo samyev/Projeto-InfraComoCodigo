@@ -3,14 +3,14 @@
 ## Requisitos 
 - Terraform v1.0.7
 - AWS CLI
-- Conta na AWS
+- Packer 1.7.5
 
 ## Sobre o Desafio
-Neste projeto temos uma infraestrutura em nuvem hospedada na AWS, contruída através do terraform. Na nuvem contém uma aplicação bem simples feita em django, na qual utiliza containers docker para ser executada.
+Neste projeto temos uma infraestrutura em nuvem hospedada na AWS, contruída através do terraform na qual utiliza uma AMI criar a partir do packer. Na nuvem contém uma aplicação bem simples feita em django, na qual utiliza containers docker para ser executada.
 
 ## Arquitetura do Projeto
 
-![Fluxograma do projeto](https://raw.githubusercontent.com/samyev/desafio-pagar.me/main/Fluxo-IaC%20(1).svg?token=AI7ZAFPQ7F3QZMIU3NPFHETBK4B6U)
+![Fluxograma do projeto]()
 
 ## Iniciando sua Infraestrutura
 Configure o AWS CLI em sua máquina. Antes de qualquer coisa acesse o diretório **desafio-pagar.me/terraform**, em seguida, execute o comando a baixo e siga as instruções
