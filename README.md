@@ -2,7 +2,7 @@
 
 ## Requisitos 
 - AWS CLI 1.20.42
-- Terraform v1.0.7
+- Terraform >= v1.0.0
 - Packer 1.7.5
 
 ## Sobre o Desafio
