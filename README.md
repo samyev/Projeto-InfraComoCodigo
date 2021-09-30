@@ -10,7 +10,7 @@ Neste projeto temos uma infraestrutura em nuvem hospedada na AWS, contruída atr
 
 ## Arquitetura do Projeto
 
-![Fluxograma do projeto]()
+![image](https://user-images.githubusercontent.com/37720085/135367187-068752ec-3246-4809-aa06-a52e0ed0c91c.png)
 
 ## Iniciando sua Infraestrutura
 Configure o AWS CLI em sua máquina. Antes de qualquer coisa acesse o diretório **desafio-pagar.me/terraform**, em seguida, execute o comando a baixo e siga as instruções
