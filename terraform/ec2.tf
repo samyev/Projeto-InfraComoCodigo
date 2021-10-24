@@ -11,11 +11,10 @@ data "aws_ami" "ubuntu" {
 
 resource "aws_instance" "app_server" {
   ami                    = data.aws_ami.ubuntu.image_id
-  instance_type          = var.instance_type
+  instance_type          = "t2.micro"
   vpc_security_group_ids = [aws_security_group.allow_http.id, aws_security_group.allow_ssh.id]
 
   tags = {
     Name = var.instance_name
-    CreatedBy = "Terraform"
   }
 }
