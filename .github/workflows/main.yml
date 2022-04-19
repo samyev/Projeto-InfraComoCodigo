@@ -4,4 +4,10 @@ on:
   push:
     branches: 
       - main
+
+jobs:
+  my-terraform-workflow:
+    uses: edsoncelio/terraform-default-workflow/.github/workflows/terraform.yml@v2
+    secrets:
+        token: ${{ secrets.GITHUB_TOKEN }}
       
